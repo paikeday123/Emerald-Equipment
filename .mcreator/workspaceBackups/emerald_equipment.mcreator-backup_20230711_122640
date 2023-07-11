@@ -1,0 +1,46 @@
+{
+  "mod_elements": [
+    {
+      "name": "EmeraldSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/emerald_equipment/models/item/emerald_sword.json",
+          "src/main/java/net/mcreator/emeraldequipment/item/EmeraldSwordItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.emerald_equipment.emerald_sword": "Emerald Sword"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "emerald_equipment",
+    "modName": "Emerald Equipment",
+    "version": "1.0.0",
+    "author": "paike, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.emeraldequipment",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
