@@ -1,14 +1,18 @@
 modLoader="javafml"
 loaderVersion="[43,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="emerald_equipment"
-version="1.0.0"
+version="0.1.1"
 displayName="Emerald Equipment"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Created using MCreator"
 displayURL="https://mcreator.net"
-authors="paike, MCreator"
+logoFile="logo.png"
+authors="paikeday123, MCreator"
+description='''
+A simple mod that adds emerald equipment. Why are you reading this? The title says everything you need to know.
+'''
 
 [[dependencies.emerald_equipment]]
     modId="minecraft"

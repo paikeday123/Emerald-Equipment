@@ -3,6 +3,7 @@
     {
       "name": "EmeraldSword",
       "type": "tool",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emerald_sword",
@@ -12,13 +13,28 @@
           "src/main/java/net/mcreator/emeraldequipment/item/EmeraldSwordItem.java"
         ]
       }
+    },
+    {
+      "name": "EmeraldPickaxe",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/emeraldequipment/item/EmeraldPickaxeItem.java",
+          "src/main/resources/assets/emerald_equipment/models/item/emerald_pickaxe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.emerald_equipment.emerald_sword": "Emerald Sword"
+      "item.emerald_equipment.emerald_sword": "Emerald Sword",
+      "item.emerald_equipment.emerald_pickaxe": "Emerald Pickaxe"
     }
   },
   "foldersRoot": {
@@ -28,17 +44,20 @@
   "workspaceSettings": {
     "modid": "emerald_equipment",
     "modName": "Emerald Equipment",
-    "version": "1.0.0",
-    "author": "paike, MCreator",
+    "version": "0.1.1",
+    "description": "A simple mod that adds emerald equipment. Why are you reading this? The title says everything you need to know.",
+    "author": "paikeday123, MCreator",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "icon",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created using MCreator",
     "modElementsPackage": "net.mcreator.emeraldequipment",
     "lockBaseModFiles": false
   },

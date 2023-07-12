@@ -13,11 +13,11 @@ public class EmeraldSwordItem extends SwordItem {
 	public EmeraldSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 194;
+				return 212;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 7.5f;
 			}
 
 			public float getAttackDamageBonus() {
