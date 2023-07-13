@@ -93,12 +93,12 @@
   "language_map": {
     "en_us": {
       "item.emerald_equipment.emerald_sword": "Emerald Sword",
-      "item.emerald_equipment.emerald_helmet_chestplate": "Emerald Chestplate",
-      "item.emerald_equipment.emerald_helmet_boots": "Emerald Boots",
-      "item.emerald_equipment.emerald_helmet_leggings": "Emerald Leggings",
+      "item.emerald_equipment.emerald_helmet_chestplate": "Emerald Helmet Body",
+      "item.emerald_equipment.emerald_helmet_boots": "Emerald Helmet Boots",
+      "item.emerald_equipment.emerald_helmet_leggings": "Emerald Helmet Leggings",
       "item.emerald_equipment.emerald_pickaxe": "Emerald Pickaxe",
       "item.emerald_equipment.emerald_shovel": "Emerald Shovel",
-      "item.emerald_equipment.emerald_helmet_helmet": "Emerald Helmet",
+      "item.emerald_equipment.emerald_helmet_helmet": "Emerald Helmet Helmet",
       "item.emerald_equipment.emerald_axe": "Emerald Axe",
       "item.emerald_equipment.emerald_hoe": "Emerald Hoe"
     }
