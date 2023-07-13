@@ -71,19 +71,19 @@
       }
     },
     {
-      "name": "EmeraldHelmet",
+      "name": "EmeraldArmor",
       "type": "armor",
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emerald_helmet",
+      "registry_name": "emerald_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/emerald_equipment/models/item/emerald_helmet_helmet.json",
-          "src/main/resources/assets/emerald_equipment/models/item/emerald_helmet_leggings.json",
-          "src/main/resources/assets/emerald_equipment/models/item/emerald_helmet_chestplate.json",
-          "src/main/java/net/mcreator/emeraldequipment/item/EmeraldHelmetItem.java",
-          "src/main/resources/assets/emerald_equipment/models/item/emerald_helmet_boots.json"
+          "src/main/resources/assets/emerald_equipment/models/item/emerald_armor_helmet.json",
+          "src/main/java/net/mcreator/emeraldequipment/item/EmeraldArmorItem.java",
+          "src/main/resources/assets/emerald_equipment/models/item/emerald_armor_chestplate.json",
+          "src/main/resources/assets/emerald_equipment/models/item/emerald_armor_boots.json",
+          "src/main/resources/assets/emerald_equipment/models/item/emerald_armor_leggings.json"
         ]
       }
     }
@@ -93,12 +93,12 @@
   "language_map": {
     "en_us": {
       "item.emerald_equipment.emerald_sword": "Emerald Sword",
-      "item.emerald_equipment.emerald_helmet_chestplate": "Emerald Chestplate",
-      "item.emerald_equipment.emerald_helmet_boots": "Emerald Boots",
-      "item.emerald_equipment.emerald_helmet_leggings": "Emerald Leggings",
+      "item.emerald_equipment.emerald_armor_chestplate": "Emerald Body",
       "item.emerald_equipment.emerald_pickaxe": "Emerald Pickaxe",
+      "item.emerald_equipment.emerald_armor_helmet": "Emerald Helmet",
+      "item.emerald_equipment.emerald_armor_boots": "Emerald Boots",
       "item.emerald_equipment.emerald_shovel": "Emerald Shovel",
-      "item.emerald_equipment.emerald_helmet_helmet": "Emerald Helmet",
+      "item.emerald_equipment.emerald_armor_leggings": "Emerald Leggings",
       "item.emerald_equipment.emerald_axe": "Emerald Axe",
       "item.emerald_equipment.emerald_hoe": "Emerald Hoe"
     }

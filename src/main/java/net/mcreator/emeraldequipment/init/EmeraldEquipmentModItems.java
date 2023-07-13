@@ -14,8 +14,8 @@ import net.mcreator.emeraldequipment.item.EmeraldSwordItem;
 import net.mcreator.emeraldequipment.item.EmeraldShovelItem;
 import net.mcreator.emeraldequipment.item.EmeraldPickaxeItem;
 import net.mcreator.emeraldequipment.item.EmeraldHoeItem;
-import net.mcreator.emeraldequipment.item.EmeraldHelmetItem;
 import net.mcreator.emeraldequipment.item.EmeraldAxeItem;
+import net.mcreator.emeraldequipment.item.EmeraldArmorItem;
 import net.mcreator.emeraldequipment.EmeraldEquipmentMod;
 
 public class EmeraldEquipmentModItems {
@@ -25,8 +25,8 @@ public class EmeraldEquipmentModItems {
 	public static final RegistryObject<Item> EMERALD_AXE = REGISTRY.register("emerald_axe", () -> new EmeraldAxeItem());
 	public static final RegistryObject<Item> EMERALD_SHOVEL = REGISTRY.register("emerald_shovel", () -> new EmeraldShovelItem());
 	public static final RegistryObject<Item> EMERALD_HOE = REGISTRY.register("emerald_hoe", () -> new EmeraldHoeItem());
-	public static final RegistryObject<Item> EMERALD_HELMET_HELMET = REGISTRY.register("emerald_helmet_helmet", () -> new EmeraldHelmetItem.Helmet());
-	public static final RegistryObject<Item> EMERALD_HELMET_CHESTPLATE = REGISTRY.register("emerald_helmet_chestplate", () -> new EmeraldHelmetItem.Chestplate());
-	public static final RegistryObject<Item> EMERALD_HELMET_LEGGINGS = REGISTRY.register("emerald_helmet_leggings", () -> new EmeraldHelmetItem.Leggings());
-	public static final RegistryObject<Item> EMERALD_HELMET_BOOTS = REGISTRY.register("emerald_helmet_boots", () -> new EmeraldHelmetItem.Boots());
+	public static final RegistryObject<Item> EMERALD_ARMOR_HELMET = REGISTRY.register("emerald_armor_helmet", () -> new EmeraldArmorItem.Helmet());
+	public static final RegistryObject<Item> EMERALD_ARMOR_CHESTPLATE = REGISTRY.register("emerald_armor_chestplate", () -> new EmeraldArmorItem.Chestplate());
+	public static final RegistryObject<Item> EMERALD_ARMOR_LEGGINGS = REGISTRY.register("emerald_armor_leggings", () -> new EmeraldArmorItem.Leggings());
+	public static final RegistryObject<Item> EMERALD_ARMOR_BOOTS = REGISTRY.register("emerald_armor_boots", () -> new EmeraldArmorItem.Boots());
 }
